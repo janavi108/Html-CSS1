@@ -1,0 +1,150 @@
+  body {
+      background: linear-gradient(-90deg, #44a1e4, #e2b627);
+      color: #bfb3ce;
+      font-family: 'Segoe UI', sans-serif;
+      height: 1000px;
+  }
+
+  /* Navbar  */
+  .dropdown-item {
+      background-color: #79bae9;
+      color: white;
+      font-size: 20px;
+  }
+
+  .hover-dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+
+  }
+
+  .dropdown-menu {
+      transition: all 0.3s ease-in-out;
+  }
+
+
+  .bhajan-card img {
+      height: 160px;
+      object-fit: cover;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+  }
+
+  .play-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 2rem;
+      color: white;
+      opacity: 0.8;
+  }
+
+  .thumb-wrapper {
+      position: relative;
+  }
+
+  .thumb-wrapper::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.25);
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+  }
+
+  .card-body a {
+      color: black;
+  }
+
+  /* Bhagavad Katha Cards CSS  */
+  .bhajan-card img {
+      height: 160px;
+      object-fit: cover;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+  }
+
+  .thumb-wrapper {
+      position: relative;
+  }
+
+  .thumb-wrapper::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.25);
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+  }
+
+  .play-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 2rem;
+      color: white;
+      opacity: 0.85;
+      pointer-events: none;
+  }
+
+  .card-body {
+      background-color: #fff;
+  }
+
+  .card-text {
+      font-size: 0.9rem;
+      color: #555;
+  }
+
+  .card-title {
+      font-weight: 600;
+      color: #2d2d2d;
+  }
+
+  .btn-sm {
+      font-size: 0.85rem;
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+  }
+
+  /* Footer Section Style */
+  footer.bg-purple {
+      background: linear-gradient(135deg, #4b0082, #800080);
+      /* Krishna purple theme */
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+      border-top: 3px solid #ffc107;
+  }
+
+  /* Paragraph spacing and size */
+  footer p {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+  }
+
+  /* Social Links Style */
+  footer a {
+      color: #ffc107;
+      /* Gold color */
+      margin: 0 8px;
+      font-size: 1.4rem;
+      transition: color 0.3s ease, transform 0.3s ease;
+  }
+
+  footer a:hover {
+      color: #ffffff;
+      transform: scale(1.2);
+  }
+
+  /* Icon spacing & alignment */
+  footer i {
+      vertical-align: middle;
+  }
+
+  /* Optional glowing effect on hover */
+  footer a:hover i {
+      text-shadow: 0 0 10px #fff, 0 0 15px #ffd700;
+  }
