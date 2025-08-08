@@ -1,0 +1,292 @@
+body {
+    background: linear-gradient(-90deg, #44a1e4, #e2b627);
+    color: #bfb3ce;
+    font-family: 'Segoe UI', sans-serif;
+    height: 1000px;
+}
+
+/* Navbar  */
+.hover-dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+
+}
+
+.dropdown-menu {
+    transition: all 0.3s ease-in-out;
+}
+
+.hover-dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+
+
+/* 🌌 Hero Section */
+.hero {
+    background: url('https://static.wixstatic.com/media/3ed1e1_70436a890cfe49b2b9762ce10f4947dc~mv2.jpg/v1/fill/w_1200,h_628,al_c/3ed1e1_70436a890cfe49b2b9762ce10f4947dc~mv2.jpg') center center/cover no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* 🟠 Grid image container */
+.hover-image-box {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.hover-image-box img {
+    transition: transform 0.4s ease;
+}
+
+.hover-image-box:hover img {
+    transform: scale(1.1);
+}
+
+.hover-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 0.4s ease;
+}
+
+.hover-image-box:hover .hover-text {
+    opacity: 1;
+    transform: translateY(0);
+    background-color: #985d3b;
+}
+
+.hover-text a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hover-text a:hover {
+    text-decoration: underline;
+}
+
+
+/* Aarti Timing Section */
+.bg-warning {
+    background: linear-gradient(to right, #f7e17d, #fdd835);
+    border-bottom: 4px solid #e6b800;
+}
+
+.bg-warning h1 {
+    font-family: 'Georgia', serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #3e2723;
+    margin-bottom: 10px;
+}
+
+.bg-warning p.lead {
+    font-size: 18px;
+    font-weight: 500;
+    color: #5d4037;
+    margin-bottom: 30px;
+}
+
+.bg-warning .row div {
+    margin-bottom: 15px;
+}
+
+.bg-warning a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #880e4f;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.bg-warning a:hover {
+    color: #c2185b;
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+
+.bg-warning .fw-bold {
+    font-size: 18px;
+    color: #1b1b1b;
+    margin-top: 5px;
+}
+
+/* Responsive Font Size */
+@media (max-width: 768px) {
+    .bg-warning h1 {
+        font-size: 26px;
+    }
+
+    .bg-warning p.lead,
+    .bg-warning a,
+    .bg-warning .fw-bold {
+        font-size: 16px;
+    }
+}
+
+
+/* 📅 EVENTS SECTION */
+#events {
+    background: linear-gradient(to right, #fffde7, #e1f5fe);
+    font-family: 'Segoe UI', sans-serif;
+    border-top: 2px dashed #d1c4e9;
+    border-bottom: 2px dashed #d1c4e9;
+    padding-bottom: 4rem;
+}
+
+/* Section Main Heading Link */
+#events>.container>a:first-child {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #6a1b9a;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 2rem;
+    text-align: center;
+    transition: color 0.3s;
+}
+
+#events>.container>a:first-child:hover {
+    color: #ab47bc;
+    text-decoration: underline;
+}
+
+/* Cards Common Style */
+#events .card {
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#events .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 25px rgba(106, 27, 154, 0.2);
+}
+
+/* Card Title Links */
+#events .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4527a0;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0.6rem;
+    transition: color 0.3s ease;
+}
+
+#events .card-title:hover {
+    color: #7e57c2;
+    text-decoration: underline;
+}
+
+/* Card Text */
+#events .card-text {
+    font-size: 1.1rem;
+    color: #5d4037;
+}
+
+/* Optional: Responsive Margin Adjustment */
+@media (max-width: 768px) {
+    #events .card-title {
+        font-size: 1.3rem;
+    }
+
+    #events .card-text {
+        font-size: 1rem;
+    }
+}
+
+/* Donation Section */
+#donate {
+    background: linear-gradient(145deg, #fff8e1, #fff3cd);
+    color: #5a3e1b;
+    border-top: 3px dashed #ffc107;
+    border-bottom: 3px dashed #ffc107;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+#donate h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #8e44ad;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px rgba(142, 68, 173, 0.3);
+}
+
+#donate p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #4e342e;
+}
+
+#donate .btn-warning {
+    background-color: #ffca28;
+    color: #5a3e1b;
+    font-weight: bold;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 202, 40, 0.4);
+    transition: all 0.3s ease-in-out;
+}
+
+#donate .btn-warning:hover {
+    background-color: #ffa000;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(255, 160, 0, 0.6);
+}
+
+
+/* Footer Section Style */
+footer.bg-purple {
+    background: linear-gradient(135deg, #4b0082, #800080);
+    /* Krishna purple theme */
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+    border-top: 3px solid #ffc107;
+}
+
+/* Paragraph spacing and size */
+footer p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Social Links Style */
+footer a {
+    color: #ffc107;
+    /* Gold color */
+    margin: 0 8px;
+    font-size: 1.4rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+}
+
+/* Icon spacing & alignment */
+footer i {
+    vertical-align: middle;
+}
+
+/* Optional glowing effect on hover */
+footer a:hover i {
+    text-shadow: 0 0 10px #fff, 0 0 15px #ffd700;
+}
