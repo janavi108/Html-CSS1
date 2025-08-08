@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(-90deg, #44a1e4, #e2b627);
+    color: #bfb3ce;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+/* 🌐 General text-line styling */
+.text-line {
+    background-color: maroon;
+    color: white;
+    font-weight: bolder;
+    padding: 7px;
+    padding-right: 70px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+}
+/* 🌟 Social Icon Container */
+.social-icons a {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 6px 10px;
+    color: white;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    border-radius: 5;
+
+}
+
+/* 🎨 Hover Effects with box background */
+.icon.facebook:hover {
+    background-color: #3b5998;
+}
+
+.icon.instagram:hover {
+    background-color: #e4405f;
+}
+
+.icon.youtube:hover {
+    background-color: #ff0000;
+}
+
+
+/* Navbar  */
+.hover-dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+
+}
+
+.dropdown-menu {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Shopping Cards Css  */
+header h1 {
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+}
+.bg-primary{
+    background: linear-gradient(45deg, #0f2ce7, #253231);
+}
+
+.card img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
