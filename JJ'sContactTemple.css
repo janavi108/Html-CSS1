@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(-90deg, #44a1e4, #e2b627);
+    color: #bfb3ce;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar  */
+.hover-dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ 
+}
+
+.dropdown-menu {
+    transition: all 0.3s ease-in-out;
+}
+
+.icon-hover {
+  font-size: 40px;
+  color: #555;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.icon-hover:hover {
+  color: red;
+  transform: scale(1.2) rotate(5deg);
+}
+
