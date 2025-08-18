@@ -1,0 +1,105 @@
+body {
+  background: linear-gradient(-90deg, #44a1e4, #e2b627);
+  color: #bfb3ce;
+  font-family: 'Segoe UI', sans-serif;
+  height: 1000px;
+}
+
+/* 🌐 General text-line styling */
+.text-line {
+  background-color: maroon;
+  color: white;
+  font-weight: bolder;
+  padding: 7px;
+  padding-right: 70px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+
+
+/* 🌟 Social Icon Container */
+.social-icons a {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 6px 10px;
+  color: white;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  border-radius: 5;
+
+}
+
+/* 🎨 Hover Effects with box background */
+.icon.facebook:hover {
+  background-color: #3b5998;
+}
+
+.icon.instagram:hover {
+  background-color: #e4405f;
+}
+
+.icon.youtube:hover {
+  background-color: #ff0000;
+}
+
+
+/* Navbar  */
+.hover-dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+
+}
+
+.dropdown-menu {
+  transition: all 0.3s ease-in-out;
+}
+
+
+/* Blog Card Styling */
+.blog-card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.blog-card img {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.blog-card .card-title {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.blog-card .card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+#seemore a {
+  /* text-align: center; */
+  color: red;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+
+/* Footer Purple Background */
+.bg-purple {
+    background-color: #4a148c !important;
+    color: white;
+}
+
+
+
