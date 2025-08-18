@@ -1,0 +1,42 @@
+/* temple-style.css */
+body {
+    background: linear-gradient(-90deg, #44a1e4, #e2b627);
+    color: #bfb3ce;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+/* Header Section */
+.temple-header {
+    background: linear-gradient(to right, #5f4b8b, #a48cd9);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* Map Styling */
+.map-container {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+/* Info Section */
+.info-section {
+    background-color: #f8f9fa;
+    color: #444;
+}
+
+.info-section a {
+    text-decoration: none;
+    color: #5f4b8b;
+    font-weight: 500;
+}
+
+.info-section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    font-size: 14px;
+    background-color: #333;
+}
