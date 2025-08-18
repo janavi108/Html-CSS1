@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(-90deg, #44a1e4, #e2b627);
+    color: #bfb3ce;
+    font-family: 'Segoe UI', sans-serif;
+    height: 1000px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* Navbar  */
+.hover-dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+
+}
+
+.dropdown-menu {
+    transition: all 0.3s ease-in-out;
+}
